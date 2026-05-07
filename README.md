@@ -1,12 +1,12 @@
-# 🔐 Real-Time Intrusion Detection System (IDS)
+#  Real-Time Intrusion Detection System (IDS)
 
-## 📌 Overview
+##  Overview
 
 This project implements a real-time Intrusion Detection System (IDS) to detect brute-force SSH attacks by monitoring Linux authentication logs.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 * Detect unauthorized login attempts
 * Identify brute-force attack patterns
@@ -15,7 +15,7 @@ This project implements a real-time Intrusion Detection System (IDS) to detect b
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 * Monitors `/var/log/auth.log`
 * Detects repeated failed login attempts
@@ -24,7 +24,7 @@ This project implements a real-time Intrusion Detection System (IDS) to detect b
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```mermaid
 flowchart LR
@@ -39,7 +39,7 @@ flowchart LR
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * Python
 * Linux (WSL / Ubuntu)
@@ -48,7 +48,7 @@ flowchart LR
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Real-time log monitoring
 * Brute-force attack detection
@@ -58,7 +58,7 @@ flowchart LR
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ids-project/
@@ -68,7 +68,7 @@ ids-project/
 
 ---
 
-## 🧪 Setup & Installation
+##  Setup & Installation
 
 ```bash
 sudo apt update
@@ -84,7 +84,7 @@ sudo service ssh start
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ### Run IDS
 
@@ -100,7 +100,7 @@ ssh fakeuser@localhost
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 ```
 [INFO] Failed attempt from 127.0.0.1 (1)
@@ -113,7 +113,7 @@ ssh fakeuser@localhost
 
 ---
 
-## 🧠 Key Concepts Demonstrated
+##  Key Concepts Demonstrated
 
 * Log analysis and parsing
 * Pattern detection using regular expressions
@@ -122,14 +122,14 @@ ssh fakeuser@localhost
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * IP blocking is simulated (WSL limitation)
 * Uses local logs instead of distributed systems
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 * Real firewall integration (UFW / iptables)
 * Email / Telegram alert system
@@ -137,7 +137,7 @@ ssh fakeuser@localhost
 
 ---
 
-## 💼 Resume Description
+##  Project Description
 
 Developed a real-time intrusion detection system to monitor SSH logs and detect brute-force attacks using Python with automated response simulation.
 
